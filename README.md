@@ -31,3 +31,15 @@ $ ./ghtmlp.js --filter '.teste' *html
 2.html: First
 3.html: third
 ```
+
+Installation
+=============
+
+You need to have node installed on your system.
+You need to install this dependencies:
+
+```
+npm install jsdom
+npm install optimist
+```
+
