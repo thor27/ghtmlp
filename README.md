@@ -5,19 +5,19 @@ filter HTML files content on your system using javascript and jQuery
 
 Example usage with pipe:
 
-{{{
+```
 $ echo 'hello <b>world</b>' | ./ghtmlp.js --filter b
 world
-}}}
+```
 
-{{{
+```
 $ echo 'hello <p id="example" class="Special">world</p>' | ./ghtmlp.js --eval '$("#example").attr("class")'
 Special
-}}}
+```
 
 Example usage with multiple files:
 
-{{{
+```
 $ ls *html
 1.html  2.html  3.html
 $ cat 1.html 
@@ -30,4 +30,4 @@ $ ./ghtmlp.js --filter '.teste' *html
 1.html: Second
 2.html: First
 3.html: third
-}}}
+```
